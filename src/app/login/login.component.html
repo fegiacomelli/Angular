@@ -7,29 +7,33 @@
             <div class="col-6 d-flex flex-column align-items-center justify-content-center
              background1">
 
-                <div class="col-6 background2 d-flex flex-column align-content-center">
+                <div class="col-6 background2 text-white d-flex flex-column align-content-center">
+                   
                     <form class="p-5">
+
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control btn-light" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            <input type="email" class="form-control btn-light caixa" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Seu email">
+                            <div id="emailHelp" class="form-text"></div>
                         </div>
+
                         <div class="mb-1">
                             <label for="exampleInputPassword1" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <input type="password" class="form-control btn-light caixa" id="exampleInputPassword1"
+                            placeholder="Sua senha">
                         </div>
-                        <div class="mb-1 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-light">Entrar</button>
+                       
+                       <div class="mt-4 d-flex justify-content-center">   
+                        <button type="submit" class="btn btn-outline-light">Entrar</button>
+                       </div>      
+
                     </form>
 
                     
-                    <hr class="mt-1 mb-2">
+                    <hr class="mt-0 mb-2">
                     <p class="mb-5 d-flex justify-content-center">
-                      Não tem uma conta?<a routerLink='/cadastrar'> Cadastre-se</a>
+                      Não tem uma conta?<a routerLink='/cadastro'> Cadastre-se</a>
                     </p> 
 
                    

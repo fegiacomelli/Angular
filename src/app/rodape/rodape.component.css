@@ -17,3 +17,8 @@ ul.social-network{
   .fa-linkedin-square:hover{
     color: #0072b1;
   }  
+
+  .cm{
+    background-color: rgba(60, 0, 71, 0.88);
+    border-radius: 20% 20% 0 0;
+    }

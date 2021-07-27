@@ -2,3 +2,16 @@
 {
     font-size: 16pt;
 }
+
+.cm{
+background-color: rgba(60, 0, 71, 0.918);
+}
+
+.ml{
+    margin-left: 15px;
+}
+
+a{
+    cursor: pointer;
+    color: white;
+}

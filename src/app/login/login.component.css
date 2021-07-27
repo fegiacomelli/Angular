@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 9000px) and (min-width: 601px){
+@media screen and (max-width: 9000px) and (min-width: 771px){
     .background0{
      background-color: rgba(63, 0, 75, 1);
      height: 100vh;
@@ -20,7 +20,8 @@
 
 }
 
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 771px){
     .background0{
         background-color: rgba(63, 0, 75, 1);
         height: 100vh;
@@ -42,4 +43,11 @@
           padding: 50px 30px;
        } 
         
+}
+
+.caixa{
+   background-color: rgba(166, 3, 199, 0.253);
+   border-top: black;
+   border-left: black;
+   border-right: black;
 }
